@@ -34,7 +34,7 @@
               "           ░    ░  ░     ░     ░  ░  "
               "                        ░            "
               "                                     "
-              "      git@github.com:redyf/neve      "
+              "   git@github.com:LajnaLegenden/sno  "
             ];
           }
           (padding 2)
