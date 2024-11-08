@@ -31,23 +31,23 @@
             stop_after_first = true;
           };
           javascript = {
-            __unkeyed-1 = "prettierd";
-            __unkeyed-2 = "prettier";
+            __unkeyed-1 = "eslint_d";  # Primary formatter
+            __unkeyed-2 = "prettierd"; # Fallback
             stop_after_first = true;
           };
           javascriptreact = {
-            __unkeyed-1 = "prettierd";
-            __unkeyed-2 = "prettier";
+            __unkeyed-1 = "eslint_d";
+            __unkeyed-2 = "prettierd";
             stop_after_first = true;
           };
           typescript = {
-            __unkeyed-1 = "prettierd";
-            __unkeyed-2 = "prettier";
+            __unkeyed-1 = "eslint_d";
+            __unkeyed-2 = "prettierd";
             stop_after_first = true;
           };
           typescriptreact = {
-            __unkeyed-1 = "prettierd";
-            __unkeyed-2 = "prettier";
+            __unkeyed-1 = "eslint_d";
+            __unkeyed-2 = "prettierd";
             stop_after_first = true;
           };
           java = [ "google-java-format" ];
