@@ -1,4 +1,4 @@
-{ lib, config, ... }:
+{ lib, config,pkgs, ... }:
 {
   options = {
     nvim-lint.enable = lib.mkEnableOption "Enable nvim-lint module";
@@ -23,36 +23,5 @@
         bash = [ "shellcheck" ];
       };
     };
-        environment.systemPackages = with pkgs; [
-      # C/C++
-      cpplint
-
-      # Go
-      golangci-lint
-
-      # Nix
-      statix
-
-      # Lua
-      selene
-
-      # Python
-      python3Packages.flake8
-
-      # JavaScript/TypeScript
-      nodePackages.eslint_d
-
-      # JSON
-      nodePackages.jsonlint
-
-      # Java
-      checkstyle
-
-      # Haskell
-      haskellPackages.hlint
-
-      # Shell
-      shellcheck
-    ];
   };
 }
