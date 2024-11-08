@@ -81,10 +81,10 @@
       foldexpr = "v:lua.vim.treesitter.foldexpr()";
 
       # Always keep 8 lines above/below cursor unless at start/end of file
-      scrolloff = 8;
+      scrolloff = 122;
 
       # Place a column line
-      colorcolumn = "80";
+      colorcolumn = "100";
 
       # Reduce which-key timeout 
       timeoutlen = 200;
@@ -96,7 +96,7 @@
       # Change cursor options
       guicursor = [
         "n-v-c:block" # Normal, visual, command-line: block cursor
-        "i-ci-ve:block" # Insert, command-line insert, visual-exclude: vertical bar cursor with block cursor, use "ver25" for 25% width
+        "i-ci-ve:hor" # Insert, command-line insert, visual-exclude: vertical bar cursor with block cursor, use "ver25" for 25% width
         "r-cr:hor20" # Replace, command-line replace: horizontal bar cursor with 20% height
         "o:hor50" # Operator-pending: horizontal bar cursor with 50% height
         "a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor" # All modes: blinking settings
@@ -105,7 +105,7 @@
 
       # Enable chars list
       list = true; # Show invisible characters (tabs, eol, ...)
-      listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
+      listchars = "tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
       # More space in the neovim command line for displaying messages
       cmdheight = 2;
