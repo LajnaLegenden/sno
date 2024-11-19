@@ -81,7 +81,7 @@
       foldexpr = "v:lua.vim.treesitter.foldexpr()";
 
       # Always keep 8 lines above/below cursor unless at start/end of file
-      scrolloff = 122;
+      scrolloff = 12;
 
       # Place a column line
       colorcolumn = "100";

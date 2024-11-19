@@ -15,7 +15,7 @@
   };
   config = lib.mkIf config.completion.enable {
     cmp.enable = lib.mkDefault true;
-    copilot.enable = lib.mkDefault false;
+    copilot.enable = lib.mkDefault true;
     lspkind.enable = lib.mkDefault true;
   };
 }
